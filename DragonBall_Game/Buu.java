@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Buu extends Actor
 {
+<<<<<<< HEAD
     
     Timer gettime = new Timer();
     int count=0;
@@ -15,10 +16,15 @@ public class Buu extends Actor
     Goku goku;
     GreenfootSound fireball = new GreenfootSound("buu.wav");
     
+=======
+    private int count=0;
+    private int max = 10;
+>>>>>>> 6eb55a607310a4114c7f9ba30a10864cf028a49e
     /**
      * Act - do whatever the Buu wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+<<<<<<< HEAD
     public Buu(Goku goku){
         this.goku = goku;
     }
@@ -46,3 +52,27 @@ public class Buu extends Actor
 }
 }
 
+=======
+    public void act() 
+    {
+        count++;
+        if(count<max)
+            moveup();
+        else if(count==100)
+            movedown();
+        
+    }
+    
+    public void moveup(){
+        if(this.getY()-this.getImage().getHeight()/2 > 0)
+                this.setLocation(this.getX(), this.getY() - 35);
+        
+        
+        
+}
+public void movedown(){
+    if(this.getY()+this.getImage().getHeight()/2 < getWorld().getHeight())
+                this.setLocation(this.getX(), this.getY() + 55);
+}
+}
+>>>>>>> 6eb55a607310a4114c7f9ba30a10864cf028a49e

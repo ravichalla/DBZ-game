@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #BlueJ class context
 comment0.target=Help
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ ButtonHelp\ here.\r\n\ \r\n\ @author\ Sai\ Harshith\ \r\n\ @version\ (V\ 1.0\ 11/18/2018)\r\n
@@ -12,3 +13,19 @@ comment4.target=void\ click()
 comment5.params=newCmd
 comment5.target=void\ setCommand(ButtonCommand)
 numComments=6
+=======
+#BlueJ class context
+comment0.target=Help
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ButtonHelp\ here.\r\n\ \r\n\ @author\ Sai\ Harshith\ \r\n\ @version\ (V\ 1.0\ 11/18/2018)\r\n
+comment1.params=
+comment1.target=Help()
+comment2.params=
+comment2.target=HelpScreen\ getHelp()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ click()
+comment5.params=newCmd
+comment5.target=void\ setCommand(ButtonCommand)
+numComments=6
+>>>>>>> 6eb55a607310a4114c7f9ba30a10864cf028a49e

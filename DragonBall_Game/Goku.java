@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 import lang.stride.*;
 import java.util.*;
 import greenfoot.*;
 import java.awt.Color;
 import java.util.List;
 import java.util.Set; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+=======
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+>>>>>>> 6eb55a607310a4114c7f9ba30a10864cf028a49e
 
 /**
  * Write a description of class Goku here.
@@ -11,7 +15,11 @@ import java.util.Set; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (Sai Harshith) 
  * @version (V 1.0 11/18/2018)
  */
+<<<<<<< HEAD
 public class Goku extends Actor implements PointsSubject
+=======
+public class Goku extends Actor
+>>>>>>> 6eb55a607310a4114c7f9ba30a10864cf028a49e
 
 {
     /**
@@ -19,6 +27,7 @@ public class Goku extends Actor implements PointsSubject
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     private int ballscollected;
+<<<<<<< HEAD
     private int numOfHits;  // number of hits taken
     //private LivesAggregate lifeAgg;
     //private LivesIterator lifeIter;
@@ -39,26 +48,46 @@ public class Goku extends Actor implements PointsSubject
         this.l = l;
     }
     
+=======
+
+    /**
+     * Initialise the Goku
+     */
+    public Goku()
+    {
+        ballscollected = 0;
+    }
+>>>>>>> 6eb55a607310a4114c7f9ba30a10864cf028a49e
     public void act() 
     {
         checkKeyPress();
         lookForBalls();
+<<<<<<< HEAD
         InjuredGoku();
 
+=======
+>>>>>>> 6eb55a607310a4114c7f9ba30a10864cf028a49e
     }    
     
     public void checkKeyPress()
     {
         if (Greenfoot.isKeyDown("up")){
+<<<<<<< HEAD
              if(this.getY()-this.getImage().getHeight()/2 > 0){
                  if(this.getY()>90)
                 this.setLocation(this.getX(), this.getY() - 5);
         }}
+=======
+             if(this.getY()-this.getImage().getHeight()/2 > 0)
+                this.setLocation(this.getX(), this.getY() - 5);
+        }
+>>>>>>> 6eb55a607310a4114c7f9ba30a10864cf028a49e
         if(Greenfoot.isKeyDown("down")){
             if(this.getY()+this.getImage().getHeight()/2 < getWorld().getHeight())
                 this.setLocation(this.getX(), this.getY() + 5);
         }
     }
+<<<<<<< HEAD
     public void InjuredGoku()
     {
    
@@ -140,4 +169,11 @@ public class Goku extends Actor implements PointsSubject
         }
        
     }
+=======
+
+    public void lookForBalls()
+    {
+        
+    }  
+>>>>>>> 6eb55a607310a4114c7f9ba30a10864cf028a49e
 }

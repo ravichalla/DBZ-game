@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #BlueJ class context
 comment0.target=ButtonCommand
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ ButtonHelp\ here.\r\n\ \r\n\ @author\ Sai\ Harshith\r\n\ @version\ (V\ 1.0\ 11/18/2018)\r\n
@@ -6,3 +7,13 @@ comment1.target=void\ executeCommand()
 comment2.params=newReceiver
 comment2.target=void\ setReceiver(Receiver)
 numComments=3
+=======
+#BlueJ class context
+comment0.target=ButtonCommand
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ButtonHelp\ here.\r\n\ \r\n\ @author\ Sai\ Harshith\r\n\ @version\ (V\ 1.0\ 11/18/2018)\r\n
+comment1.params=
+comment1.target=void\ executeCommand()
+comment2.params=newReceiver
+comment2.target=void\ setReceiver(Receiver)
+numComments=3
+>>>>>>> 6eb55a607310a4114c7f9ba30a10864cf028a49e
