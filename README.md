@@ -6,13 +6,13 @@ The project is a dragonballz game developed using Greenfoot IDE.
 Make Goku collect all 7 dragonballs to make shenron grant him a wish. Do this while evading 3 of Goku's enemies.
 
 #### Game Screenshots
-[Menu Screen](DragonBall_Game/screenshots/Menu.png)  
+![Menu Screen](DragonBall_Game/screenshots/Menu.png)  
 
 
-[Game ](DragonBall_Game/screenshots/game.png)  
+![Game ](DragonBall_Game/screenshots/game.png)  
 
 
-[Help screen](DragonBall_Game/screenshots/helpinfo.jpg)
+![Help screen](DragonBall_Game/screenshots/helpinfo.jpg)
 
 ### Running the game
 
