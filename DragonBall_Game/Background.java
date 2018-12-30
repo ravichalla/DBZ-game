@@ -3,9 +3,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class Background here.
  * 
- * @author Chungchen Ran
- * @version 11/25/18
- */
+* @author Sai Harshith
+* @version (V 1.0 11/18/2018)
+*/
 public class Background extends Actor
 {
     /**

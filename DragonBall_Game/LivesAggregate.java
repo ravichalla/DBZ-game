@@ -2,8 +2,8 @@ import greenfoot.*;
 /**
  * Write a description of class LivesAggregate here.
  * 
- * @author Chungchen Ran
- * @version v0.3 11/26/18
+ * @author Sai Harshith
+ * @version (V 1.0 11/18/2018)
  */
 public interface LivesAggregate
 {

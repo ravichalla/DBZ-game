@@ -5,8 +5,8 @@
     /**
      * Write a description of class DisplayHighScore here.
      * 
-     * @author (your name) 
-     * @version (a version number or a date)
+     * @author Sai Harshith
+     * @version (V 1.0 11/18/2018)
      */
     public class DisplayHighScore extends Actor
     {
